@@ -1,11 +1,11 @@
 ////////////////////////////////////////////////////////
 //Function Name:Multiplication
-//Input:10 20 
-//Output:200
-//Description:Accept Two Numbers from user and return Multiplication of Two Numbers 
-//Date: 09/06/2021
+//Input:5  9
+//Output:45
+//Description:Accept 2 Number From User And Return Multiplication of them
+//Date: 11/06/2021
 //Author: Shubham Lodha
-///////////////////////////////////////////////////////
+//////////////////////////////////////////////////////
 
 import java.util.*;
 
