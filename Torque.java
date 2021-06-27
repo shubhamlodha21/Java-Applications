@@ -2,8 +2,8 @@
 //Function Name:Torque
 //Input:11 12
 //Output:112.6
-//Description:Programe to Calculate torque
-//Date: 25/05/2021
+//Description:Program to Calculate torque
+//Date:27/06/2021
 //Author: Shubham Lodha
 ///////////////////////////////////////////////////////
 import java.util.*;
@@ -20,7 +20,7 @@ class Torque
 
 		System.out.println("Value of m2");
 		m2=sobj.nextFloat();
-        
+
        float torque=(2*m1*m2)/(m1+m2)*g;
 
        System.out.println("Torque is:"+torque);
