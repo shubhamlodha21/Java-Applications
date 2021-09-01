@@ -1,16 +1,11 @@
-////////////////////////////////////////////////////
-// Function name :--
-// Description:Print the Pattern
-// Input:5
-// Output: 5 # 4 # 3 # 2 # 1
-// Author:Shubham Lodha
-// Date:10/08/2021
-///////////////////////////////////////////////////
-
-
-/*Accept number from user and display below pattern. 
-Input : 5 
-Output :  */
+////////////////////////////////////////////////////////
+//Function Name:LB102
+//Input:5 # 4 # 3 # 2 # 1
+//Output: 5
+//Description:Accept number from user and display below pattern
+//Date: 01/09/2021
+//Author: Shubham Lodha
+//////////////////////////////////////////////////////
 
 import java.util.*;
 
