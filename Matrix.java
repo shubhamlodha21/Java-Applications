@@ -1,28 +1,33 @@
 ////////////////////////////////////////////////////////
 //Function Name:Matrix
-//Input:2 2 (1 2 4 5)
-//Output: 5
-//Description:Accept 2-D Array from user and Display
-//Date: 16/06/2021
+//Input:10 20 30 40
+//Output:10 20 30 40
+//Description:Accept matrix element input from user and display element
+//Date: 03/09/2021
 //Author: Shubham Lodha
-//////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+
+// javac Matrix.java -d .
+
+
+package Marvellous;
 import java.util.*;
 
-class Matrix
+public class Matrix
 {
-	public static void main(String str[])	// From 26th June new PPA batch
+	public int Arr[][];
+	public Matrix(int iRow, int iCol)
+	{
+		Arr = new int[iRow][iCol];
+	}
+	protected void finalize()
+	{
+		Arr = null;
+	}
+	public void Accept()
 	{
 		Scanner sobj = new Scanner(System.in);
-		
-		System.out.println("Enter number of rows");
-		int row = sobj.nextInt();
-		
-		System.out.println("Enter number of columns");
-		int col = sobj.nextInt();
-
-		int Arr[][] = new int[row][col];
-
-		System.out.println("Enter the elements");
+		System.out.println("Please enter th elements");
 		for(int i = 0; i < Arr.length; i++)	// Rows
 		{
 			for(int j = 0; j < Arr[i].length; j++)	// Columns
@@ -30,8 +35,10 @@ class Matrix
 				Arr[i][j] = sobj.nextInt();
 			}
 		}
-
-		System.out.println("Entered elements are");
+	}
+	public void Display()
+	{
+		System.out.println("Elemenets of Matrix are : ");
 		for(int i = 0; i < Arr.length; i++)	// Rows
 		{
 			for(int j = 0; j < Arr[i].length; j++)	// Columns
@@ -40,7 +47,5 @@ class Matrix
 			}
 			System.out.println();
 		}
-
-		Arr = null;
 	}
 }
