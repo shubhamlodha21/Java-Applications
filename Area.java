@@ -22,7 +22,7 @@ class Area
 	    System.out.println("Enter a Height:");
 	    h=sobj.nextInt();
 
-	    float area=(PI*r*r)+2*PI*r*h;
+	    float area=(PI*r*r)+2*PI*r*h ;
 
 	    System.out.println("Area is:"+area);
 	}
