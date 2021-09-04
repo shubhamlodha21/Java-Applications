@@ -59,7 +59,7 @@ class Arithmetic
 	public int Divi()
 	{
 		return no1/no2;
-	}
+	} 
 }
 
 class ArithmeticOperations
