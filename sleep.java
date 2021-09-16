@@ -1,4 +1,29 @@
-
+////////////////////////////////////////////////////////
+/*Input:--
+//Output:Thank you: 
+My Thank you: 
+My Thank you: 
+My Thank you: 
+My Thank you: 
+My Thank you: 
+My Thank you: 
+My Thank you: 
+My Thank you: 
+My Thank you: 
+My Thank you: 
+Thank you: 
+Thank you: 
+Thank you: 
+Thank you: 
+Thank you: 
+Thank you: 
+Thank you: 
+Thank you: 
+Thank you: 
+//Description:sleep method in thread 
+//Date:16-09-2021
+//Author: Shubham lodha*/
+//////////////////////////////////////////////////////
 
 class MyNewThr1 extends Thread{
     public void run(){
